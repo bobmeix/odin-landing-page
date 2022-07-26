@@ -93,6 +93,29 @@ body {
     width: 30%;
 }
 
+.action {
+    display: flex;
+    min-height: 15vh;
+    justify-content: center;
+    align-items: center;    
+}
+
+.action-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;    
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 60px;
+    border-radius: 8px;
+}
+
+.action-content p {
+    margin: 0;    
+}
+
+
 #placeholder {
     height: 200px;    
 }
@@ -100,7 +123,7 @@ body {
 #white {
     width: 120px;
     border: 3px solid #3882F6;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 #quote {
@@ -117,7 +140,18 @@ body {
     margin: 0;
 }
 
+#action {
+    border: 2px white solid;
+}
 
+#action-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#action-content {
+    font-size: 14px;
+}
 
 ul {
     list-style-type: none;
@@ -137,6 +171,6 @@ button {
     font-weight: 700;
     font-size: 18px;
     padding: 8px 30px;
-    border-radius: 6px;
+    border-radius: 8px;
     border: 0;
 }
