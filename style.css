@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    height: 100vh;    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;   
     margin-left: auto;
     margin-right: auto ;
     overflow: clip;
@@ -31,7 +34,7 @@ body {
 }
 
 .hero {
-    height: 25vh;
+    min-height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +55,7 @@ body {
 }
 
 .info {
-    height: 25vh;    
+    min-height: 25vh;    
 }
 
 .info-header {
@@ -81,7 +84,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
+    min-height: 25vh;
     background-color: #E5E7EB;
 
 }
