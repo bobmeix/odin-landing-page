@@ -19,9 +19,35 @@ body {
 
 }
 
-.header-links a {
+.header-links a,
+.hero .left p {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 300px;
+    padding: 75px 0;
+    background-color: #1F2937;
+}
+
+.hero .left {
+    max-width: 32%;
+}
+
+.hero .left h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#placeholder {
+    height: 230px;    
 }
 
 ul {
@@ -34,5 +60,14 @@ ul {
 
 a {
     text-decoration: none;
+}
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 6px;
+    border: 0;
 }
