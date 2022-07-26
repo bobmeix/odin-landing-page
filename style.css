@@ -115,6 +115,15 @@ body {
     margin: 0;    
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
 
 #placeholder {
     height: 200px;    
