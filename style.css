@@ -5,7 +5,7 @@ body {
     margin-left: auto;
     margin-right: auto ;
     overflow: clip;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: Roboto, Roboto-LightItalic, Arial, Helvetica, sans-serif;
 }
 
 
@@ -25,7 +25,7 @@ body {
 }
 
 .header-links a,
-.hero .left p {
+.hero .hero-left p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -40,11 +40,11 @@ body {
     background-color: #1F2937;
 }
 
-.hero .left {
+.hero .hero-left {
     max-width: 32%;
 }
 
-.hero .left h1 {
+.hero .hero-left h1 {
     margin: 0;
     font-size: 48px;
     font-weight: 800;
@@ -77,6 +77,19 @@ body {
     color: #1F2937;
 }
 
+.quote {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    background-color: #E5E7EB;
+
+}
+
+.quote-content {
+    width: 30%;
+}
+
 #placeholder {
     height: 200px;    
 }
@@ -86,6 +99,22 @@ body {
     border: 3px solid #3882F6;
     border-radius: 10px;
 }
+
+#quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#source {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: right;
+    margin: 0;
+}
+
+
 
 ul {
     list-style-type: none;
